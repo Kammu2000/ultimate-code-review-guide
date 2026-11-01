@@ -1,19 +1,25 @@
 # Review Guidelines
 
 Actionable, checklist-style guidance for code reviewers, derived from
-`knowledge-base/`. Unlike the knowledge base (organized by source),
-guidelines here are organized by language/topic so a reviewer can
-pull up exactly what applies to the diff in front of them.
+`knowledge-base/`. Each source/ideology gets its own checklist doc
+here, kept in sync with (and cross-referenced from) its
+knowledge-base counterpart.
 
-## Status
+## Checklists
 
-Empty — to be populated once enough knowledge-base sources exist to
-cross-reference. Planned layout:
+| File | Derived from |
+|---|---|
+| [`clean-code-checklist.md`](clean-code-checklist.md) | `knowledge-base/clean-code.md` |
+| [`better-code-checklist.md`](better-code-checklist.md) | `knowledge-base/better-code.md` |
+| [`design-by-contract-checklist.md`](design-by-contract-checklist.md) | `knowledge-base/design-by-contract.md` (organized by the same 12 sections/sub-topics) |
+| [`cpp-core-guidelines-checklist.md`](cpp-core-guidelines-checklist.md) | `knowledge-base/cpp-core-guidelines.md` |
+| [`javascript-clean-code-checklist.md`](javascript-clean-code-checklist.md) | `knowledge-base/javascript-clean-code.md` |
+| [`react-best-practices-checklist.md`](react-best-practices-checklist.md) | `knowledge-base/react-best-practices.md` |
 
-- `general-review-checklist.md` — language-agnostic checklist (naming,
-  functions, comments, structure, tests) drawn from Clean Code, Better
-  Code, etc.
-- `cpp-review-checklist.md` — C++-specific checklist drawn from Better
-  Code, Effective Modern C++, Design by Contract.
+## Planned
 
-Each item should cite the knowledge-base source/rule it came from.
+Once enough per-source checklists exist, combine them into a single,
+deduplicated `review-checklist.md` covering all ideologies — organized
+by review concern (naming, contracts, concurrency, error handling,
+...) rather than by source, so a reviewer can pull up one list for a
+given concern regardless of which book/talk it came from.
