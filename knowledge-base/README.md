@@ -7,14 +7,17 @@ for review guidelines and anti-patterns.
 
 ## Sources
 
-| File | Source |
-|---|---|
-| [`clean-code.md`](clean-code.md) | *Clean Code*, Robert C. Martin |
-| [`better-code.md`](better-code.md) | *Better Code* talk series & book, Sean Parent & David Abrahams (STLab) |
+| File | Area | Source |
+|---|---|---|
+| [`clean-code.md`](clean-code.md) | General | *Clean Code*, Robert C. Martin |
+| [`better-code.md`](better-code.md) | C++ | *Better Code* talk series & book, Sean Parent & David Abrahams (STLab) |
+| [`design-by-contract.md`](design-by-contract.md) | General/C++ | Bertrand Meyer's Design by Contract theory (Eiffel), expanded into a 12-topic, in-depth PR-review reference: each topic has concept / why it matters / good & bad C++ examples / C++ application |
+| [`cpp-core-guidelines.md`](cpp-core-guidelines.md) | C++ | *C++ Core Guidelines*, Bjarne Stroustrup & Herb Sutter (isocpp) |
+| [`javascript-clean-code.md`](javascript-clean-code.md) | JS/TS | *Clean Code JavaScript* (community adaptation) & *Airbnb JavaScript Style Guide* |
+| [`react-best-practices.md`](react-best-practices.md) | React | React official docs (react.dev) & *Airbnb React/JSX Style Guide* |
 
 ## Planned
 
-- `design-by-contract.md` — Bertrand Meyer's Design by Contract (Eiffel)
 - `effective-modern-cpp.md` — *Effective Modern C++*, Scott Meyers
 
 ## Conventions
