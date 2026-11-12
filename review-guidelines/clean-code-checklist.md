@@ -1,7 +1,4 @@
 # Clean Code — Review Checklist
-
-PR-review questions derived from `knowledge-base/clean-code.md`
-(Robert C. Martin's *Clean Code*).
 _____________________________________
 
 ## General

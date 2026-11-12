@@ -1,6 +1,4 @@
 # JavaScript Clean Code — Review Checklist
-
-PR-review questions derived from `knowledge-base/javascript-clean-code.md`.
 _____________________________________
 
 ## Variables

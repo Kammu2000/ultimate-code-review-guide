@@ -1,8 +1,4 @@
 # C++ Core Guidelines — Review Checklist
-
-PR-review questions derived from `knowledge-base/cpp-core-guidelines.md`
-(Stroustrup & Sutter's *C++ Core Guidelines*). Organized to mirror
-that doc's sections.
 _____________________________________
 
 ## Philosophy

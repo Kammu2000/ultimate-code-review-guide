@@ -1,9 +1,4 @@
 # Design by Contract — Review Checklist
-
-Per-topic PR-review questions derived from `knowledge-base/design-by-contract.md`.
-Each heading mirrors that doc's section/subsection numbering so you can jump straight
-to the concept, good/bad C++ examples, and C++ application notes behind the matching
-topic in that doc.
 _____________________________________
 
 ## 1. Foundations

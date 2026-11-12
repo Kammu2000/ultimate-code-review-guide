@@ -1,6 +1,4 @@
 # React Best Practices — Review Checklist
-
-PR-review questions derived from `knowledge-base/react-best-practices.md`.
 _____________________________________
 
 ## Component design
