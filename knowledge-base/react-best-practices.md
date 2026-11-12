@@ -50,6 +50,3 @@ _____________________________________
 2. Query by role/text/label the way a user would, not by CSS class or test-only IDs where an accessible query is possible.
 3. Prefer integration-style tests of a feature's user flow over exhaustively unit-testing every internal function.
 
-A review checklist derived from these practices lives in
-`review-guidelines/react-best-practices-checklist.md`; a named
-anti-pattern catalog lives in `anti-patterns/react-anti-patterns.md`.

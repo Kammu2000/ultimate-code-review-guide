@@ -132,8 +132,3 @@ _____________________________________
 4. SL.1 Use the standard library whenever possible, over hand-rolled equivalents.
 5. SL.con.1 Prefer using `std::array`/`std::vector` over a C array.
 
-A review checklist derived from this document lives in
-`review-guidelines/cpp-core-guidelines-checklist.md`. Several of its
-categories (raw pointers/ownership, RAII, `const`-correctness, no raw
-loops) are directly enforceable via `clang-tidy` — see
-`automation/clang-tidy-mapping.md`.

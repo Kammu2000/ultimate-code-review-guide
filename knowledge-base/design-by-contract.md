@@ -16,10 +16,6 @@ example, and how it maps onto modern C++.
 4. **Bad example** — a common violation.
 5. **C++ application** — how it translates into modern C++.
 
-Per-topic review checklists derived from these principles live in
-`review-guidelines/design-by-contract-checklist.md`. Named
-anti-pattern entries from §12 are also cataloged in
-`anti-patterns/design-by-contract-anti-patterns.md`.
 _____________________________________
 
 ## 1. Foundations

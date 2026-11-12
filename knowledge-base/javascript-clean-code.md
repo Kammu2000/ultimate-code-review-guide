@@ -3,7 +3,7 @@
 Source: *Clean Code JavaScript* (community adaptation of Robert C.
 Martin's *Clean Code* for JS, originated by Ryan McDermott) and the
 *Airbnb JavaScript Style Guide*. Principles below apply to JS/TS
-generally; see `react-best-practices.md` for React-specific guidance.
+generally;
 _____________________________________
 
 ## Variables
@@ -57,6 +57,3 @@ _____________________________________
 2. Don't leave commented-out code in the codebase.
 3. Don't use comments as a change log — that's what version control is for.
 
-A review checklist derived from these rules lives in
-`review-guidelines/javascript-clean-code-checklist.md`; a named
-anti-pattern catalog lives in `anti-patterns/javascript-anti-patterns.md`.
