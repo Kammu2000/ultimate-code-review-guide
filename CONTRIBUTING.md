@@ -6,7 +6,6 @@
 2. Start with a 1-2 line attribution of the source, then a `___` divider.
 3. Distill the source into numbered rules grouped under `##` topic
    headings — concise and scannable, not a copy of the original text.
-4. Update `knowledge-base/README.md`'s source table.
 
 ## Promoting rules into guidelines/anti-patterns
 
@@ -19,8 +18,7 @@
 ## Automating a rule
 
 - If a linter/formatter can enforce a rule, add the config under
-  `automation/<toolchain>/` and record the mapping in
-  `automation/README.md` (or its `mapping.md` once created).
+  `automation/<toolchain>/`. 
 
 ## General conventions
 
