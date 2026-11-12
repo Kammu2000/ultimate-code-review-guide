@@ -7,15 +7,14 @@ mechanically.
 
 ## Structure
 
-- [`knowledge-base/`](knowledge-base/README.md) — Concise notes
-  distilled from authoritative sources (Clean Code, Better Code,
-  Design by Contract, Effective Modern C++, ...).
-- [`review-guidelines/`](review-guidelines/README.md) — Actionable,
+- [`knowledge-base/`](knowledge-base/) — Concise notes
+  distilled from authoritative sources. 
+- [`review-guidelines/`](review-guidelines/) — Actionable,
   checklist-style guidance for code reviewers, derived from the
-  knowledge base and organized by language/topic.
-- [`anti-patterns/`](anti-patterns/README.md) — Catalog of recurring
+  knowledge base.
+- [`anti-patterns/`](anti-patterns/) — Catalog of recurring
   anti-patterns and code smells, with how to spot and fix them.
-- [`automation/`](automation/README.md) — Formatter/linter
+- [`automation/`](automation/) — Formatter/linter
   configuration that automatically enforces the rules that can be
   checked mechanically, plus a mapping of which rules are automated
   vs. require manual review.
