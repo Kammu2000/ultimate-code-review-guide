@@ -12,8 +12,9 @@ mechanically.
 - [`review-guidelines/`](review-guidelines/) — Actionable,
   checklist-style guidance for code reviewers, derived from the
   knowledge base.
-- [`anti-patterns/`](anti-patterns/) — Catalog of recurring
-  anti-patterns and code smells, with how to spot and fix them.
+- [`anti-patterns/`](anti-patterns/) — Compact, scannable
+  checklists of named anti-patterns and code smells (name + red flag
+  only).
 - [`automation/`](automation/) — Formatter/linter
   configuration that automatically enforces the rules that can be
   checked mechanically, plus a mapping of which rules are automated
