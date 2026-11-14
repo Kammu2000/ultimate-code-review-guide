@@ -5,40 +5,9 @@ them automatically, so review comments can be replaced by CI failures
 where possible. Primary source for check names:
 `clang.llvm.org/extra/clang-tidy/checks/list.html`. Rationale for this
 config's choices (strictness, exclusions, coverage gaps) lives in
-[`clang-tidy-notes.md`](clang-tidy-notes.md).
+[`clang-tidy-notes.md`](clang-tidy-notes.md). Drop-in config file:
+[`configs/.clang-tidy`](configs/.clang-tidy).
 _____________________________________
-
-## `.clang-tidy` config
-
-```yaml
-Checks: >
-  -*,
-  clang-analyzer-*,
-  -clang-analyzer-alpha*,
-
-  bugprone-*,
-  cert-*,
-  security-*,
-
-  modernize-*,
-  -modernize-use-trailing-return-type,
-  -modernize-use-nodiscard,
-
-  performance-*,
-
-  cppcoreguidelines-*,
-  -cppcoreguidelines-non-private-member-variables-in-classes,
-
-  readability-*,
-  misc-*,
-  -misc-non-private-member-variables-in-classes
-WarningsAsErrors: "*"
-HeaderFilterRegex: ".*"
-ExcludeHeaderFilterRegex: ""
-FormatStyle: file
-ExtraArgs:
-  - -std=c++23
-```
 
 ## Mapping by check group
 
@@ -59,11 +28,7 @@ ExtraArgs:
 Style rules (naming, layout, line length) from Clean Code's "Source
 code structure" section and Core Guidelines' `NL:` naming/layout
 suggestions are better enforced by `clang-format` than `clang-tidy`.
-Start from a base style (`Google`, `LLVM`, or `Microsoft`) and
-override specifically where it conflicts with this repo's
-conventions, rather than writing one from scratch.
-
-```yaml
-BasedOnStyle: Google
-ColumnLimit: 100
-```
+Drop-in config file: [`configs/.clang-format`](configs/.clang-format)
+(`BasedOnStyle: Google`, `ColumnLimit: 100`) — override specifically
+where it conflicts with this repo's conventions, rather than writing
+one from scratch.
