@@ -29,6 +29,7 @@ Style rules (naming, layout, line length) from Clean Code's "Source
 code structure" section and Core Guidelines' `NL:` naming/layout
 suggestions are better enforced by `clang-format` than `clang-tidy`.
 Drop-in config file: [`configs/.clang-format`](configs/.clang-format)
-(`BasedOnStyle: Google`, `ColumnLimit: 100`) — override specifically
-where it conflicts with this repo's conventions, rather than writing
-one from scratch.
+— a fully explicit style (4-space indent, K&R/attached braces,
+100-column limit) rather than a tweaked base style, so an upstream
+default change in `clang-format` can never silently alter this repo's
+formatting.

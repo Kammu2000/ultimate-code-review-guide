@@ -1,2 +1,42 @@
-BasedOnStyle: Google
+Language: Cpp
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+NamespaceIndentation: All
+
+# Line length (important for readability)
 ColumnLimit: 100
+
+# template statement on separate Line
+AlwaysBreakTemplateDeclarations: Yes
+
+# Pointer style
+PointerAlignment: Left
+
+# Braces (K&R-style: opening brace stays on the same line)
+BreakBeforeBraces: Attach
+
+# Keep code readable (avoid one-liner abuse)
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortBlocksOnASingleLine: Never
+
+# Expressions
+BreakBeforeBinaryOperators: None
+
+# Switch-case readability
+IndentCaseLabels: true
+
+# Includes & comments
+SortIncludes: false
+ReflowComments: true
+
+# Spacing
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+
+# C++ standard awareness
+Standard: Latest
