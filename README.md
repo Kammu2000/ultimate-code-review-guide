@@ -25,9 +25,9 @@ mechanically.
 1. Add/update a source's distilled notes in `knowledge-base/`.
 2. Promote actionable, checkable rules from those notes into
    `review-guidelines/` and `anti-patterns/`.
-3. For any rule that a tool can enforce, add it to `automation/` and
-   record it in `automation/README.md`'s mapping table so manual
-   review effort focuses on what tools can't catch.
+3. For a must-follow rule that a tool can enforce, add it to `automation/` and
+   record it in that rule's mapping doc so manual review effort
+   focuses on what tools can't catch.
 
 See `CONTRIBUTING.md` for conventions.
 
